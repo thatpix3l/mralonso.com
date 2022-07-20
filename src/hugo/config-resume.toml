@@ -1,0 +1,13 @@
+languageCode = 'en-us'
+theme = 'researcher'
+
+relativeURLs = true
+contentDir = "content/resume"
+publishDir = "public/resume"
+staticDir = "static/resume"
+
+[params]    
+  author = "Jonathan Alonso"
+
+[markup.goldmark.renderer]
+  unsafe = true
