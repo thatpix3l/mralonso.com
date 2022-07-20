@@ -69,8 +69,8 @@ Real-time 3D virtual avatar puppeteering program. Frontend written in TypeScript
 
 [PicoPear](https://github.com/thatpix3l/picopear):
 
-Real-time livestream chat presenter, supporting "YouTube" and "Twitch". Frontend written in JavaScript and Svelte. Backend WebSocket and RESTful API server written in Go. Listens on a built-in TCP server, where any external program can POST a valid JSON object that contains all needed info of a "live chat" object that contains a message, user that posted and the original source of the message itself.
+Real-time livestream chat presenter, supporting "YouTube" and "Twitch". Frontend written in JavaScript and Svelte. Backend WebSocket and RESTful API server written in Go. Listens on a built-in TCP server, where any external program can POST a "live chat" object in JSON format. The object contains a message, the user that posted said message and the name of the source the message originated.
 
 [twitching](https://github.com/thatpix3l/twitching):
 
-Companion CLI tool for PicoPear, dedicated solely for pulling live "Twitch" chat. Written in Ruby. Pulls in live "Twitch" chat, transforms each chat message into a custom JSON object, and relays it to PicoPear.
+Companion CLI tool for PicoPear, dedicated solely for pulling live "Twitch" chat. Written in Ruby. Pulls in live "Twitch" chat, transforms each chat message into a custom JSON object and relays it to PicoPear.
