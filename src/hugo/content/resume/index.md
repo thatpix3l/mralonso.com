@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 date: 2022-07-17T00:27:34-04:00
-draft: true
+draft: false
 ---
 
 {{<row>}}
