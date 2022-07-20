@@ -74,3 +74,7 @@ Real-time livestream chat presenter, supporting "YouTube" and "Twitch". Frontend
 [twitching](https://github.com/thatpix3l/twitching):
 
 Companion CLI tool for PicoPear, dedicated solely for pulling live "Twitch" chat. Written in Ruby. Pulls in live "Twitch" chat, transforms each chat message into a custom JSON object and relays it to PicoPear.
+
+[mralonso.com](https://github.com/thatpix3l/mralonso.com)
+
+This website itself. Built with Hugo. Implements CI/CD with Netlify.
