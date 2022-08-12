@@ -39,7 +39,7 @@ contact@mralonso.com
 {{</item>}}
 
 {{<item>}}
-Go, HTML, CSS, Javascript, TypeScript, Java, Svelte, SolidJS, Bash/Linux Shell, PowerShell, Docker/Podman Containers 
+Go, HTML5/CSS, Javascript, TypeScript, Java, Svelte, SolidJS, Bash & POSIX Shell, PowerShell, Docker/Podman Containers 
 {{</item>}}
 
 {{</row>}}
@@ -60,21 +60,20 @@ Git, SSH, VSCode, IntelliJ, Markdown, Vim, Fedora Linux, Virtual Machines
 
 {{</row>}}
 
-## Experience
-**Projects**:
+## Projects
 
 [Function Two](https://github.com/thatpix3l/fntwo):
 
-Real-time 3D virtual avatar puppeteering program. Frontend model viewer and dashboard written in TypeScript, ThreeJS, Bulma and Svelte. Backend real-time and RESTful API server written in Go. Reads live head tracking data from a variety of iOS and Android devices, as well as anything else that sends data through the VirtualMotionCapture protocol.
+Real-time 3D virtual avatar puppeteering program; includes facial tracking for supported models. Frontend model viewer and dashboard written in TypeScript, ThreeJS, Bulma and Svelte. Backend real-time and RESTful API server written in Go. Supports reading motion data from iOS and Android devices, as well as custom devices that send motion data through the VirtualMotionCapture protocol.
 
 [PicoPear](https://github.com/thatpix3l/picopear):
 
-Real-time livestream chat presenter, supporting "YouTube" and "Twitch". Frontend written in JavaScript and Svelte. Backend real-time and RESTful API server written in Go. Listens on a built-in TCP server, where any external program can POST a "live chat" object in JSON format. The object contains a message, the user that posted said message and the name of the source the message originated.
+Real-time livestream chat presenter, supports "YouTube" and "Twitch". Frontend written in JavaScript and Svelte. Backend real-time and RESTful API server written in Go. Listens on a built-in TCP server, where any external program can POST a "live chat" object in JSON format. The object contains a message, the user that posted said message and the name of the source the message originated from.
 
 [twitching](https://github.com/thatpix3l/twitching):
 
 Companion CLI tool for PicoPear, dedicated solely for pulling live "Twitch" chat. Written in Ruby. Pulls in live "Twitch" chat, transforms each chat message into a custom JSON object and relays it to PicoPear.
 
-[mralonso.com](https://github.com/thatpix3l/mralonso.com)
+[mralonso.com](https://github.com/thatpix3l/mralonso.com):
 
-This website itself. Built with Hugo. Implements CI/CD with Netlify.
+Personal website built with Hugo. Implements CI/CD with Netlify.
