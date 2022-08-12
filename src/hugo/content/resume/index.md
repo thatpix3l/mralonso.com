@@ -39,7 +39,7 @@ contact@mralonso.com
 {{</item>}}
 
 {{<item>}}
-Go, HTML, CSS, Javascript, TypeScript, Java, Svelte, SolidJS, Bash/Linux Shell, PowerShell, Docker, Podman 
+Go, HTML, CSS, Javascript, TypeScript, Java, Svelte, SolidJS, Bash/Linux Shell, PowerShell, Docker/Podman Containers 
 {{</item>}}
 
 {{</row>}}
@@ -55,7 +55,7 @@ Go, HTML, CSS, Javascript, TypeScript, Java, Svelte, SolidJS, Bash/Linux Shell, 
 {{</item>}}
 
 {{<item>}}
-Git, SSH, VSCode, IntelliJ, Markdown, Vim
+Git, SSH, VSCode, IntelliJ, Markdown, Vim, Fedora Linux, Virtual Machines
 {{</item>}}
 
 {{</row>}}
@@ -65,11 +65,11 @@ Git, SSH, VSCode, IntelliJ, Markdown, Vim
 
 [Function Two](https://github.com/thatpix3l/fntwo):
 
-Real-time 3D virtual avatar puppeteering program. Frontend written in TypeScript, Bootstrap and SolidJS. Backend WebSocket and RESTful API server written in Go. Reads live head tracking data from specific phone apps and anything else that sends data through the VirtualMotionCapture protocol, based off of OpenSoundControl, which internally uses UDP.
+Real-time 3D virtual avatar puppeteering program. Frontend model viewer and dashboard written in TypeScript, ThreeJS, Bulma and Svelte. Backend real-time and RESTful API server written in Go. Reads live head tracking data from a variety of iOS and Android devices, as well as anything else that sends data through the VirtualMotionCapture protocol.
 
 [PicoPear](https://github.com/thatpix3l/picopear):
 
-Real-time livestream chat presenter, supporting "YouTube" and "Twitch". Frontend written in JavaScript and Svelte. Backend WebSocket and RESTful API server written in Go. Listens on a built-in TCP server, where any external program can POST a "live chat" object in JSON format. The object contains a message, the user that posted said message and the name of the source the message originated.
+Real-time livestream chat presenter, supporting "YouTube" and "Twitch". Frontend written in JavaScript and Svelte. Backend real-time and RESTful API server written in Go. Listens on a built-in TCP server, where any external program can POST a "live chat" object in JSON format. The object contains a message, the user that posted said message and the name of the source the message originated.
 
 [twitching](https://github.com/thatpix3l/twitching):
 
