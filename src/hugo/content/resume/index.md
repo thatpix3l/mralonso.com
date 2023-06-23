@@ -9,7 +9,7 @@ draft: false
 {{<item>}}
 # [Jonathan Alonso](https://github.com/thatpix3l)
 
-*Junior Software Developer*
+*Software Engineer*
 {{</item>}}
 
 {{<item>}}
@@ -17,9 +17,9 @@ draft: false
 <div style="text-align: right;">
 {{</rawhtml>}}
 
-(407)-476-5342
-
 contact@mralonso.com
+
+(407)-476-5342
 
 {{<rawhtml>}}
 </div>
@@ -30,16 +30,20 @@ contact@mralonso.com
 
 ---
 
-## Technical Skills
+## About Me
+
+Motivated Systems Software Engineer that consistently builds robust and quality features for both existing and new system software. Proven track record of achievements and attention to detail.
+
+## Skills
 
 {{<row>}}
 
 {{<item>}}
-**Programming & Technologies**:
+**Languages**:
 {{</item>}}
 
 {{<item>}}
-Go, HTML5/CSS, Javascript, TypeScript, Java, Svelte, SolidJS, Bash & POSIX Shell, PowerShell, Docker/Podman Containers 
+Go, TypeScript, JavaScript, Svelte, Bash, POSIX, C#, PowerShell
 {{</item>}}
 
 {{</row>}}
@@ -51,24 +55,54 @@ Go, HTML5/CSS, Javascript, TypeScript, Java, Svelte, SolidJS, Bash & POSIX Shell
 {{<row>}}
 
 {{<item>}}
-**Software & Tools**:
+**Paradigms**:
 {{</item>}}
 
 {{<item>}}
-Git, SSH, VSCode, IntelliJ, Markdown, Vim, Fedora Linux, Virtual Machines
+Multi-Paradigm, Concurrent, Object-Oriented, Declarative, Imperative
 {{</item>}}
 
 {{</row>}}
+
+{{<rawhtml>}}
+</br>
+{{</rawhtml>}}
+
+{{<row>}}
+
+{{<item>}}
+**Tools**:
+{{</item>}}
+
+{{<item>}}
+Git, SSH, VSCode, IntelliJ, Markdown, Neovim, Fedora Linux
+{{</item>}}
+
+{{</row>}}
+
+## Education
+
+[University of Central Florida (UCF)](https://ucf.edu) (2023):
+
+- Computer Science I
+- Discrete Structures
+
+[Valencia College](https://valenciacollege.edu) (2022):
+
+- Intro to Programming
+- Java Programming
+- Advanced Java Programming
+- C Programming
 
 ## Projects
 
 [Function Two](https://github.com/thatpix3l/fntwo):
 
-Real-time 3D virtual avatar puppeteering program; includes facial tracking for supported models. Frontend model viewer and dashboard written in TypeScript, ThreeJS, Bulma and Svelte. Backend real-time and RESTful API server written in Go. Supports reading motion data from iOS and Android devices, as well as custom devices that send motion data through the VirtualMotionCapture protocol.
+Virtual avatar puppeteering software. Frontend built with TypeScript, ThreeJS, Bulma and Svelte. Backend live and RESTful API server written in Go. Reads facial motion data from iOS and Android devices with the "VirtualMotionCapture" protocol.
 
 [PicoPear](https://github.com/thatpix3l/picopear):
 
-Real-time livestream chat presenter, supports "YouTube" and "Twitch". Frontend written in JavaScript and Svelte. Backend real-time and RESTful API server written in Go. Listens on a built-in TCP server, where any external program can POST a "live chat" object in JSON format. The object contains a message, the user that posted said message and the name of the source the message originated from.
+Livestream chat merger. Supports "YouTube" and "Twitch". Frontend is written in JavaScript and Svelte. Backend real-time and RESTful API server is written in Go. Combines differing sources of user chat messages, and presents them in one interface for livestreamers.
 
 [twitching](https://github.com/thatpix3l/twitching):
 
